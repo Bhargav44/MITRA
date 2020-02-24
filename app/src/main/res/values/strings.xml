@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MITRA</string>
+    <string-array name="Select_District">
+        <item>Select</item>
+        <item>Guntur</item>
+        <item>Krishna</item>
+        <item>Visakhapatnam</item>
+        <item>kadapa</item>
+        <item>Prakasam</item>
+        <item>Chittoor</item>
+        <item>Anantapur</item>
+        <item>Kurnool</item>
+        <item>Nellore</item>
+    </string-array>
+    <string-array name="Select_Category">
+        <item>Select</item>
+        <item>Water</item>
+        <item>Electricity</item>
+        <item>Drainage</item>
+        <item>Waste Cleanage</item>
+        <item>Roads</item>
+    </string-array>
+
+
+</resources>

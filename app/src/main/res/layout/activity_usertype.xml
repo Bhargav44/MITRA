@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Usertype"
+android:background="@drawable/images"  >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MITRA"
+    android:textSize="45sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:textColor="#FF5722"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:text="Admin"
+        android:textSize="15sp"
+        android:onClick="admin"
+        android:background="@drawable/bg_editext"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="User"
+        android:textSize="15sp"
+        android:onClick="User"
+        android:background="@drawable/bg_editext"
+        />
+
+</LinearLayout>
